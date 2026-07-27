@@ -1,7 +1,24 @@
 aid: flagcat
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/flagcat.png
 name: Flagcat
-description: Flagcat is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Flagcat is a Paris-based animation and webtoon production studio building ambitious
+  action-fantasy anime and webtoon series (including "Writers," "Deadly Hour," and "Impure Blood
+  Regression") while redesigning the production pipeline around artist wellness. Its proprietary tool,
+  Flagcat Colors, is an AI-powered coloring product for webtoon artists that learns from uploaded
+  character references and batch-colorizes line art in one click, exporting layered files for final
+  touch-ups. Flagcat Colors is in a pre-beta, waiting-list stage and the studio publishes no public
+  API, developer platform, SDKs, or documentation as of this profile. Backed by Seedcamp.
 url: https://raw.githubusercontent.com/api-evangelist/flagcat/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Animation
+- Webtoon
+- Anime
+- Artificial Intelligence
+- Creative Tools
+- Content Production
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +45,12 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://flagcat.studio
+  url: https://www.flagcat.studio/en
+- type: Product
+  name: Flagcat Colors
+  url: https://www.flagcat.studio/en/colors
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
